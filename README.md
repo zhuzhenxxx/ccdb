@@ -12,3 +12,10 @@ a kv db demo
 - 只允许单线程访问。不支持多进程、多线程同时并发访问
 - 最大支持512TB数据文件
 
+
+```cpp
+B+ Tree
+    -----Page Cache   获取页面的内存访问地址
+    -----Page allocator 分配器
+
+```
